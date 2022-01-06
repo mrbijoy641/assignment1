@@ -11,6 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
 
     font-family: 'Ubuntu', sans-serif;
+    max-width: 1300px;
 }
 .half-width{
     width: 50%;
@@ -122,6 +123,7 @@ width: 100%;
 .blog-img img{
     width: 100%;
     padding: 50px;
+   
 }
 .blog-content{
     margin-top: 40px;
@@ -148,7 +150,8 @@ width: 100%;
 }
 .project-img img{
     max-width: 60%;
-    margin-left: 40px;
+    margin-left: 180px;
+
 }
 .project-content{
     margin-left: 40px;
@@ -157,6 +160,8 @@ width: 100%;
 .project-content p{
     margin: 30px 0;
     font-size: 16px;
+    color: #535c68;
+    
 }
 .project-content a{
     
