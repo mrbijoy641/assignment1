@@ -15,26 +15,37 @@ body{
 .half-width{
     width: 50%;
 }
+.text-center{
+    text-align: center;
+}
 /* header css */
 .header-section{
     display: flex;
     margin-left: 50px;
+    margin-top: 50px;
+   margin-right: 50px;
+}
+.title{
+    border-left: 3px solid crimson ;
+    padding-left: 10px;
+
 }
 .title h1{
     color: black;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .title h2{
     color: crimson;
     margin-top: 10px;
     margin-bottom: 18px;
+    font-size:30px ;
 }
 .header-section {
     padding: 30px;
 }
 .header-section p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
    
 }
 .btn{
@@ -48,4 +59,68 @@ body{
 .header-image img{
     max-width: 60%;
     margin-left: 80px;
+    
+    
+}
+
+/* mission css */
+.dream{
+    padding: 50px 0;
+}
+.dreams{
+    display: flex;
+}
+.dream1{
+    width: 31%;
+    margin: 2%;
+    background: #686de0;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.dream1 img{
+width: 100%;
+}
+.dream2{
+    width: 31%;
+    margin: 2%;
+    background: #7ed6df;
+    padding: 40px;
+    border-radius: 10px;
+}
+.dream2 img{
+    width: 100%;
+
+}
+.dream3{
+    width: 31%;
+    margin: 2%;
+    background: #95afc0;
+    padding: 40px;
+    border-radius: 10px;
+}
+.dream3 img{
+width: 100%;
+}
+
+/* blog-css */
+.blog-section{
+    display: flex;
+    margin: 0 50px;
+}
+.blog-img img{
+    width: 100%;
+    padding: 50px;
+}
+.blog-content{
+    margin-top: 40px;
+}
+.blog-content h1{
+    font-size: 50px;
+}
+.blog-content h2{
+    font-size: 40px;
+}
+.blog-content p{
+    margin-bottom: 30px;
 }
