@@ -62,6 +62,10 @@ body{
     
     
 }
+h4{
+    margin: 10px 0;
+}
+
 
 /* mission css */
 .dream{
@@ -102,7 +106,14 @@ width: 100%;
 .dream3 img{
 width: 100%;
 }
-
+.btn2{
+    background: crimson;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+}
 /* blog-css */
 .blog-section{
     display: flex;
@@ -114,13 +125,73 @@ width: 100%;
 }
 .blog-content{
     margin-top: 40px;
+    margin-left: 30px;
 }
 .blog-content h1{
     font-size: 50px;
 }
 .blog-content h2{
     font-size: 40px;
+    margin-top: 20px;
 }
 .blog-content p{
     margin-bottom: 30px;
+    line-height: 1.6rem;
+    white-space: 1.5rem;
+    color: #535c68;
+}
+
+/* project css */
+.projects{
+    display: flex;
+    padding: 50px;
+}
+.project-img img{
+    max-width: 60%;
+    margin-left: 40px;
+}
+.project-content{
+    margin-left: 40px;
+}
+.project-content h1{}
+.project-content p{
+    margin: 30px 0;
+    font-size: 16px;
+}
+.project-content a{
+    
+}
+
+/* services section css */
+.services{
+    display: flex;
+    margin: 50px 50px;
+    border-radius: 20px;
+}
+
+.service img{
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+   
+    border-radius: 10px;
+    
+}
+.service h4{
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+.service-head{
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    font-weight: 500;
+}
+/*  footer css*/
+footer{
+    background-color: #1e272e;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+
 }
